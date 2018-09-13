@@ -1,13 +1,8 @@
 <?php
    require ( 'JMBG.php ');
 
-<<<<<<< HEAD
-   $br = "0";
-
-=======
    $br = "0"; // broj za proveru
-   
->>>>>>> 4503d0e9a661bbd80b806f608f131e054b2ff112
+
    try
    {
       $ob = new JMBG($br);
