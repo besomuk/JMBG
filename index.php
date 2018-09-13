@@ -1,7 +1,7 @@
 <?php
    require ( 'JMBG.php ');
 
-   $br = "0"; // broj za proveru
+   $br = "0502980710071"; // broj za proveru
 
    try
    {
