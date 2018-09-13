@@ -1,8 +1,8 @@
 <?php
-   include ( 'JMBG.php ');
+   require ( 'JMBG.php ');
 
    $br = "0";
-   
+
    try
    {
       $ob = new JMBG($br);
