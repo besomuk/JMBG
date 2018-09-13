@@ -1,7 +1,7 @@
 <?php
    include ( 'JMBG.php ');
 
-   $br = "0";
+   $br = "0"; // broj za proveru
    
    try
    {
