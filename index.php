@@ -1,6 +1,8 @@
 <?php
    require ( 'JMBG.php ');
 
+   $br = "0000000000000";
+
    try
    {
       $ob = new JMBG($br);
@@ -11,9 +13,9 @@
          echo "<hr>";
 
          echo "Datum rodjenja: " . $ob->getPersonData()["bday"]  . "<br>";
-         echo "Pol: "      . $ob->getPersonData()["gender"]  . "<br>";
-         echo "Region 1: " . $ob->getPersonData()["region"]  . "<br>";
-         echo "Region 2: " . $ob->getPersonData()["region2"] . "<br>";
+         echo "Pol: "            . $ob->getPersonData()["gender"]  . "<br>";
+         echo "Region 1: "       . $ob->getPersonData()["region"]  . "<br>";
+         echo "Region 2: "       . $ob->getPersonData()["region2"] . "<br>";
       }
       else
          echo "Broj nije ispravan.";

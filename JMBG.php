@@ -72,6 +72,12 @@
        */
       public function getPersonData ()
       {
+         //proveri sam sebe
+         if ( !$this->isOK() )
+         {
+            echo "Broj nije ispravan, nema podataka! Prvo uradi proveru broja, pa tek onda prikazi podatke.";
+         }
+
          $data = array ();
 
          // provera pola
