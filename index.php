@@ -1,8 +1,6 @@
 <?php
    require ( 'JMBG.php ');
 
-   $br = "0502980710071"; // broj za proveru
-
    try
    {
       $ob = new JMBG($br);
