@@ -1,7 +1,7 @@
 <?php
    require ( 'JMBG.php ');
 
-   $br = "0000000000000";
+   $br = "0000000000000";  // ovde upisati broj za proveru, kao string
 
    try
    {
